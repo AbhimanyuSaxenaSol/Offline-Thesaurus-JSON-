@@ -12,5 +12,5 @@ My first project on GitHub
 This project was created for people who have never made any applications. Its very simple and and straightforard. If you are new to python coding this will be good practice for you
 
 # Credits
-Thanks to [Šarūnas Navickas](http://zaibacu.github.io/) for making the dataset available for everyone to use
+Thanks to [Šarūnas Navickas](http://zaibacu.github.io/) for making the dataset available for everyone to use.
 [Link to the GitHub JSONL repository](https://github.com/zaibacu/thesaurus)
