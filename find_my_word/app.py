@@ -2,11 +2,11 @@ import time
 import json
 import difflib
 from difflib import get_close_matches
-with open('data.jsonl', 'r') as file:
+with open('data.jsonl', 'r') as file:    
     temp=file.read()
-data= [json.loads(jline) for jline in temp.splitlines()]
+data= [json.loads(jline) for jline in temp.splitlines()]  #convert jsonl data to json
 wordlist=[i['word'] for i in data]
-index=set(wordlist)
+index=set(wordlist)                                       #our dataset can contain multiple values for a single word this why we made an index. Making an index will also reduce the searchtimes as index is much smaller than whole of json data  
 errmsg='This word was not found in the system. Are you sure you typed the correct word?'
 def find(word):
     memory=[]
